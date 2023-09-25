@@ -1,0 +1,49 @@
+.sidebar{
+    flex: 1;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.sideBannerImg{
+    width: 100px;
+    height: 100px;
+}
+.sidebarButtons{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 200px;
+}
+
+.TeamsButton{
+    text-decoration: none;
+    background-color: #A6E3E9;
+    color: darkblue;
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.TeamButton{
+    text-decoration: none;
+    background-color: #A6E3E9;
+    color: darkblue;
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
