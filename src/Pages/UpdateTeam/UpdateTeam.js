@@ -56,7 +56,7 @@ export default function AddTeam(){
 
     useEffect(() => {
         getTeamById()
-    },[]);
+    });
 
 
     return(
