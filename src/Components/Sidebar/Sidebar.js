@@ -1,7 +1,7 @@
 import React from 'react';
 import './sidebar.css';
 import { Link } from 'react-router-dom';
-import Global from '../../Config/Global';
+// import Global from '../../Config/Global';
 
 export default function Sidebar() {
   return (
@@ -9,7 +9,8 @@ export default function Sidebar() {
         <div className='sidebarBanner'>
             <img 
                 className='sideBannerImg'
-                src={Global.SIDEBAR_LOGO} 
+                // src={Global.SIDEBAR_LOGO} 
+                src='https://hindubabynames.info/wp-content/themes/hbn_download/download/sports-ipl/ipl-logo.png'
                 alt='sidebar-logo'
             />
         </div>
